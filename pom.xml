@@ -308,11 +308,7 @@
         <module>rest</module>
         <module>integration</module>
         <module>authz</module>
-        <!-- TEST FORK: js excluded from default reactor.
-             frontend-maven-plugin runs `pnpm build` which needs
-             network access + npmjs.com — out of slsa-maven's scope.
-             Restore this line after the slsa-maven test cycle. -->
-        <!-- <module>js</module> -->
+        <module>js</module>
         <module>test-framework</module>
         <module>tests</module>
         <module>quarkus</module>
